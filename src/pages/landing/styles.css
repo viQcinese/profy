@@ -34,6 +34,10 @@
   margin-top: 0.8rem;
 }
 
+.hero-image {
+  width: 100%;
+}
+
 .buttons-container {
   display: flex;
   justify-content: center;
@@ -136,23 +140,27 @@
   .hero-image {
     grid-area: hero;
     justify-self: end;
+    height: 100%;
   }
 
   .buttons-container {
     grid-area: buttons;
     justify-content: flex-start;
+    margin-right: 2rem;
   }
 
   .buttons-container a {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
   }
 
-  .buttons-container {
-    font-size: 2.4rem;
+  .buttons-container img {
+    font-size: 2.0rem;
   }
 
   .total-connections {
+    font-size: 1.8rem;
     grid-area: total;
     justify-self: end;
+    width: 24rem;
   }
 }
