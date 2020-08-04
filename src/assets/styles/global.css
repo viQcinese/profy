@@ -53,6 +53,7 @@ input,
 button,
 textarea {
   font: 500 1.6rem Poppins;
+  color: var(--color-text-base)
 }
 
 /* It will always occupy 90% of width, unless it means more than 700px */
